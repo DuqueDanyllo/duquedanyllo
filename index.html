@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Danyllo Duque | Portfólio, Dev & Web Security</title>
-<meta name="description" content="Portfólio de Danyllo Duque: projetos de segurança web, laboratório de cibersegurança e desenvolvimento web.">
+<title>Danyllo Duque | Dev &amp; Web Security</title>
+<meta name="description" content="Portfólio de Danyllo Duque: desenvolvimento web, cibersegurança e projetos. Sites rápidos, seguros e feitos sob medida.">
 <meta name="theme-color" content="#0A192F">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <header>
   <div class="container nav">
     <a class="brand" href="#topo" aria-label="Danyllo Duque, início">
@@ -18,11 +19,11 @@
       <ul>
         <li><a href="#sobre">Sobre mim</a></li>
         <li><a href="#projetos">Projetos</a></li>
-        <li><a href="../site-vendas/index.html">Serviços</a></li>
+        <li><a href="#servicos">Serviços</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
-    <a class="btn btn-primary" href="../site-vendas/index.html">Contratar meus serviços</a>
+    <a class="btn btn-primary" href="#contato" data-wa="Olá, Danyllo! Vi o seu portfólio e quero conversar sobre um projeto.">Falar no WhatsApp</a>
   </div>
 </header>
 
@@ -32,28 +33,21 @@
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <h1>Desenvolvedor web com a segurança na base de cada projeto.</h1>
-      <p class="lead">Sou Danyllo Duque. Construo sites rápidos e ferramentas de segurança web, e registro aqui o que estou produzindo e aprendendo.</p>
+      <h1>Desenvolvimento web, cibersegurança e muita vontade de construir.</h1>
+      <p class="lead">Sou Danyllo Duque. Crio sites rápidos e estudo segurança da informação, do front-end ao Assembly. Aqui estão meus projetos e como posso ajudar o seu.</p>
       <div class="actions">
         <a class="btn btn-primary" href="#projetos">Conhecer Projetos</a>
-        <a class="btn btn-ghost" href="../site-vendas/index.html">Contratar meus serviços</a>
+        <a class="btn btn-ghost" href="#servicos">Ver Serviços</a>
       </div>
       <ul class="badges" aria-label="Destaques">
-        <li>Redes e cibersegurança</li><li>Abordagem defensiva</li><li>Código leve</li>
+        <li>Front-end</li><li>Cibersegurança</li><li>Python</li><li>C e Assembly</li>
       </ul>
     </div>
-    <div class="terminal" role="img" aria-label="Resumo do perfil em formato de terminal">
-      <div class="term-bar"><i></i><i></i><i></i><span>perfil</span></div>
-      <div class="term-body">
-        <p class="line"><span class="cmd">$</span> whoami</p>
-        <p class="line">danyllo-duque</p>
-        <p class="line">foco ........ <span class="ok">web + segurança defensiva</span></p>
-        <p class="line">stack ....... HTML5, CSS3, JS, Python</p>
-        <p class="line">lab ......... Kali, Ubuntu Server, Arch</p>
-        <p class="line">estudo ...... PortSwigger Academy</p>
-        <p class="line">agora ....... <span class="bad">scanner de vulnerabilidades</span></p>
+    <div class="photo">
+      <div class="photo-frame">
+        <img src="assets/foto.jpg" alt="Foto de Danyllo Duque" width="340" height="425" fetchpriority="high">
       </div>
-      <p class="term-note">Resumo do meu perfil.</p>
+      <span class="photo-tag">$ whoami → danyllo-duque</span>
     </div>
   </div>
 </section>
@@ -62,21 +56,22 @@
 <section id="sobre">
   <div class="container about">
     <div>
-      <h2>Quem está por trás do código</h2>
-      <p class="lead">Sou Danyllo Duque, desenvolvedor web com bagagem em Redes de Computadores e Cibersegurança.</p>
-      <p>Costumo olhar um site pelos dois lados: como ele vende e como ele pode ser atacado. Por isso a proteção entra na estrutura da página desde o começo, e não como remendo depois da publicação.</p>
-      <p>Unir desenvolvimento web e proteção de dados significa que os visitantes do seu negócio navegam em um site rápido, hospedado em um ambiente configurado com cuidado.</p>
-      <ul class="stack" aria-label="Tecnologias">
-        <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Python</li><li>Linux</li><li>Burp Suite</li><li>Nmap</li><li>Wireshark</li>
+      <h2>Quem sou eu</h2>
+      <p class="lead">Gosto de entender como as coisas funcionam, do raciocínio da matemática e da física até a lógica por trás de um sistema.</p>
+      <p>Minha área principal é TI, com foco em cibersegurança. Gosto de aprender de baixo para cima: C e Assembly para entender a máquina, Python para automatizar, e front-end e back-end para construir o que as pessoas usam. Também me interesso por teologia.</p>
+      <p>Ainda não tenho muita experiência em nenhuma dessas áreas, e é por isso que estou construindo projetos reais: é assim que eu aprendo de verdade, e é o que você vê aqui embaixo.</p>
+      <ul class="chips" aria-label="Interesses">
+        <li>Matemática</li><li>Física</li><li>Teologia</li><li>TI</li><li>Cibersegurança</li>
+        <li>Assembly</li><li>Linguagem C</li><li>Python</li><li>Front-end</li><li>Back-end</li>
       </ul>
     </div>
     <aside class="card">
       <h3>Como eu trabalho</h3>
       <ul>
         <li>Abordagem defensiva: ferramentas que verificam, e não que atacam</li>
-        <li>Análises de segurança só com a autorização do dono do site</li>
+        <li>Análises de segurança só com autorização do dono do site</li>
         <li>Código limpo e leve, sem dependências desnecessárias</li>
-        <li>Relatórios em linguagem simples, sem jargão</li>
+        <li>Explico tudo em linguagem simples</li>
       </ul>
     </aside>
   </div>
@@ -86,76 +81,104 @@
 <section id="projetos">
   <div class="container">
     <div class="section-head">
-      <h2>Projetos e laboratório</h2>
-      <p class="lead">O que estou construindo e praticando agora. É a prova do meu trabalho técnico, com o status real de cada item.</p>
+      <h2>Projetos</h2>
+      <p class="lead">Clique em um quadrado para ver os detalhes. Cada projeto mostra o status real: o que já está no ar, o que está em andamento e o que ainda vai começar.</p>
     </div>
+    <div class="tiles" id="tiles"></div>
+    <noscript><p class="note">Ative o JavaScript para ver os projetos.</p></noscript>
+  </div>
+</section>
 
-    <div class="grid grid-2">
-      <article class="card proj">
-        <div class="proj-top"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div><span class="status">Em desenvolvimento</span></div>
-        <h3>Scanner de vulnerabilidades web</h3>
-        <p>Ferramenta em Python que audita sites de forma não destrutiva e é a base do meu futuro SaaS de monitoramento contínuo.</p>
+<!-- SERVIÇOS -->
+<section id="servicos">
+  <div class="container">
+    <div class="section-head">
+      <h2>Serviços</h2>
+      <p class="lead">Sites claros, rápidos e protegidos para divulgar um negócio, um serviço ou uma causa.</p>
+    </div>
+    <div class="grid grid-3">
+      <article class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></div>
+        <h3>Landing Pages e sites de projeto</h3>
+        <p>Páginas objetivas para apresentar uma ideia e levar o visitante a agir, como fiz no Criança Feliz.</p>
         <ul>
-          <li>Análise de cabeçalhos HTTP e configuração de SSL</li>
-          <li>Detecção de listagem de diretórios e Path Traversal</li>
-          <li>Relatório claro, para quem não é da área técnica</li>
+          <li>Estrutura pensada para conversão</li>
+          <li>Integração com WhatsApp e formulário</li>
+          <li>SEO básico e acessibilidade</li>
         </ul>
-        <ul class="stack"><li>Python</li><li>HTTP</li><li>SSL/TLS</li></ul>
       </article>
-
-      <article class="card proj">
-        <div class="proj-top"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div><span class="status">Em montagem</span></div>
-        <h3>Laboratório de cibersegurança e infraestrutura</h3>
-        <p>Ambiente isolado de máquinas virtuais para praticar auditoria, administração de servidores e arquitetura de sistemas.</p>
+      <article class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg></div>
+        <h3>Front-end responsivo</h3>
+        <p>HTML5, CSS3 e JavaScript, com foco em celular e carregamento rápido.</p>
         <ul>
-          <li>Kali Linux para testes de invasão e auditoria Web AppSec</li>
-          <li>Ubuntu Server para simular servidores, SSH e serviços web</li>
-          <li>Arch Linux para estudar kernel, sistema de arquivos e processos</li>
+          <li>Layout moderno, com Flexbox e Grid</li>
+          <li>Código limpo, sem peso desnecessário</li>
+          <li>Pronto para crescer depois</li>
         </ul>
-        <ul class="stack"><li>VirtualBox</li><li>Kali</li><li>Ubuntu Server</li><li>Arch</li></ul>
       </article>
-
-      <article class="card proj">
-        <div class="proj-top"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/></svg></div><span class="status">Em estudo</span></div>
-        <h3>Segurança de aplicações web</h3>
-        <p>Prática contínua na PortSwigger Web Security Academy, interceptando e analisando requisições para entender como falhas reais acontecem e como corrigi-las.</p>
-        <ul class="stack"><li>Burp Suite</li><li>PortSwigger Academy</li><li>Nmap</li><li>Gobuster</li><li>Wireshark</li></ul>
-      </article>
-
-      <article class="card proj">
-        <div class="proj-top"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg></div><span class="status">Em construção</span></div>
-        <h3>Site de vendas de Landing Pages</h3>
-        <p>Site separado deste, focado em conversão, que apresenta os serviços, os planos de manutenção e a análise gratuita. Feito com HTML5, CSS3 e JavaScript puros, sem frameworks.</p>
-        <ul class="stack"><li>HTML5</li><li>CSS3</li><li>JavaScript</li></ul>
-        <a class="btn btn-ghost" href="../site-vendas/index.html">Visitar o site de vendas</a>
+      <article class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h3>Segurança e manutenção</h3>
+        <p>Seu site publicado com cuidado e acompanhado depois da entrega.</p>
+        <ul>
+          <li>HTTPS e cabeçalhos de segurança</li>
+          <li>Backups e monitoramento</li>
+          <li>Planos de manutenção mensal sob consulta</li>
+        </ul>
       </article>
     </div>
-    <p class="note">Os trabalhos entregues para clientes entram nesta seção conforme forem publicados.</p>
   </div>
 </section>
 
 <!-- CONTATO -->
 <section id="contato">
-  <div class="container">
-    <div class="card teaser">
-      <div>
-        <h2>Precisa de um site rápido e seguro?</h2>
-        <p>Conheça os serviços e os planos de manutenção, ou fale direto comigo.</p>
-      </div>
-      <div class="actions">
-        <a class="btn btn-primary" href="../site-vendas/index.html">Conhecer os serviços</a>
-        <a class="btn btn-ghost" href="#contato" data-wa="Olá, Danyllo! Vi o seu portfólio e quero conversar.">Falar no WhatsApp</a>
-      </div>
+  <div class="container contact">
+    <div>
+      <h2>Vamos conversar?</h2>
+      <p class="lead">Conte sobre o seu projeto e eu respondo com os próximos passos. Se já tem um site, posso fazer uma análise inicial dos pontos públicos (velocidade, SSL e cabeçalhos), com a sua autorização.</p>
+      <a class="btn btn-primary" href="#contato" data-wa="Olá, Danyllo! Quero um orçamento para o meu site.">Falar no WhatsApp</a>
+      <ul class="contact-list">
+        <li>E-mail: <a href="mailto:seuemail@dominio.com">seuemail@dominio.com</a></li>
+        <li>Resposta em até 1 dia útil</li>
+      </ul>
+    </div>
+    <div class="card">
+      <form id="contact-form" novalidate>
+        <label>Seu nome
+          <input type="text" name="nome" placeholder="Maria Silva" required autocomplete="name">
+        </label>
+        <label>O que você precisa?
+          <select name="servico">
+            <option>Orçamento de Landing Page</option>
+            <option>Site para um projeto ou causa</option>
+            <option>Segurança e manutenção do meu site</option>
+          </select>
+        </label>
+        <label>Link do site atual (se houver)
+          <input type="url" name="site" placeholder="https://seusite.com.br" autocomplete="url">
+        </label>
+        <label>Conte rapidamente sobre o seu projeto
+          <textarea name="msg" placeholder="O que o site precisa fazer?"></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">Enviar pelo WhatsApp</button>
+        <p class="form-note" id="form-status" role="status">Ao enviar, o WhatsApp abre com a mensagem pronta.</p>
+      </form>
     </div>
   </div>
 </section>
 
 </main>
 
+<dialog id="dlg" aria-labelledby="dlg-title">
+  <button class="dlg-close" id="dlg-close" aria-label="Fechar">&times;</button>
+  <div id="dlg-body"></div>
+</dialog>
+
 <footer>
   <div class="container foot">
     <span>© <span id="ano">2026</span> Danyllo Duque | Dev &amp; Web Security</span>
-    <a href="../site-vendas/index.html">Site de serviços</a>
+    <span>Desenvolvimento web, segurança e projetos</span>
   </div>
 </footer>
 
