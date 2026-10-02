@@ -1,5 +1,5 @@
 // Troque pelo seu número com DDI e DDD, só dígitos (ex.: 5527999999999)
-var WHATSAPP = "5527999999999";
+var WHATSAPP = "5527997670909";
 
 // Projetos: para adicionar um novo, copie um bloco e preencha os campos.
 // status: "live" (no ar), "dev" (em desenvolvimento) ou "plan" (planejado)
