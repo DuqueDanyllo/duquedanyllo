@@ -30,29 +30,14 @@ var PROJETOS = [
     icone: '<circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>'
   },
   {
-    nome: "Laboratório de cibersegurança",
-    status: "dev", rotulo: "Em montagem",
-    resumo: "Máquinas virtuais para praticar",
-    descricao: "Ambiente isolado no VirtualBox para praticar auditoria e administração de servidores: Kali Linux para testes de segurança web, Ubuntu Server para simular servidores, SSH e serviços web, e Arch Linux para estudar kernel, sistema de arquivos e processos.",
-    tags: ["VirtualBox", "Kali", "Ubuntu Server", "Arch"],
+    nome: "Laboratório de Infraestrutura & Segurança",
+    status: "dev", rotulo: "Ativo",
+    resumo: "Ambiente isolado para testes de desempenho e segurança",
+    descricao: "Ambiente de testes isolado em VirtualBox utilizado para simulação de cenários reais de rede e validação de segurança. Conta com Kali Linux para auditorias e análise de vulnerabilidades web, Ubuntu Server para testes de desempenho, SSH e hardening de servidores web, e Arch Linux para otimização fina de processos e recursos do sistema.",
+    tags: ["VirtualBox", "Kali", "Ubuntu Server", "Arch Linux"],
     icone: '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>'
   },
-  {
-    nome: "Segurança de aplicações web",
-    status: "dev", rotulo: "Em estudo",
-    resumo: "Prática na PortSwigger Academy",
-    descricao: "Estudo contínuo na PortSwigger Web Security Academy, interceptando e analisando requisições com o Burp Suite para entender como as falhas reais acontecem e como corrigi-las.",
-    tags: ["Burp Suite", "PortSwigger", "Nmap", "Wireshark"],
-    icone: '<path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/>'
-  },
-  {
-    nome: "C e Assembly x86-64",
-    status: "dev", rotulo: "Em estudo",
-    resumo: "Entendendo a máquina por dentro",
-    descricao: "Estudos de baixo nível em linguagem C e Assembly x86-64 para entender como o computador executa os programas, base importante para a área de segurança.",
-    tags: ["C", "Assembly", "x86-64"],
-    icone: '<path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/>'
-  }
+
 ];
 
 var dlg = document.getElementById("dlg");
