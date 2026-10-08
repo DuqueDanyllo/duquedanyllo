@@ -37,6 +37,36 @@ var PROJETOS = [
     tags: ["VirtualBox", "Kali", "Ubuntu Server", "Arch Linux"],
     icone: '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>'
   },
+  {
+    nome: "Site Demonstrativo para Contabilidade",
+    status: "dev", rotulo: "Ativo",
+    resumo: "Um site demonstrativo para contabilidade, com foco em SEO e performance",
+    descricao: "Site demonstrativo para contabilidade, com foco em SEO e performance. O site é responsivo, otimizado para velocidade e acessibilidade, e conta com um blog para publicação de artigos relacionados à contabilidade e finanças.",
+    tags: ["Website", "SEO", "HTML", "CSS", "JavaScript"],
+    link: "https://duquedanyllo.github.io/contabilidade/", linkTexto: "Visitar Site Demonstrativo",
+    icone: '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>'
+  },
+
+  {
+    nome: "Site Demonstrativo para Odontologia",
+    status: "dev", rotulo: "Ativo",
+    resumo: "Um site demonstrativo para odontologia, com foco em SEO e performance",
+    descricao: "Site demonstrativo para odontologia, com foco em SEO e performance. O site é responsivo, otimizado para velocidade e acessibilidade, e conta com um blog para publicação de artigos relacionados à odontologia e saúde bucal.",
+    tags: ["Website", "SEO", "HTML", "CSS", "JavaScript"],
+    link: "https://duquedanyllo.github.io/odontologia/", linkTexto: "Visitar Site Demonstrativo",
+    icone: '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>'
+  },
+
+  {
+    nome: "Site Demonstrativo para Advocacia",
+    status: "dev", rotulo: "Ativo",
+    resumo: "Um site demonstrativo para advocacia, com foco em SEO e performance",
+    descricao: "Site demonstrativo para advocacia, com foco em SEO e performance. O site é responsivo, otimizado para velocidade e acessibilidade, e conta com um blog para publicação de artigos relacionados à advocacia e direito.",
+    tags: ["Website", "SEO", "HTML", "CSS", "JavaScript"],
+    link: "https://duquedanyllo.github.io/advocacia/", linkTexto: "Visitar Site Demonstrativo",
+    icone: '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>'
+  },
+
 
 ];
 
