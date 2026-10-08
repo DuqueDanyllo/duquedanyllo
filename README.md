@@ -38,7 +38,7 @@ Sou técnico em Redes de Computadores e estudante de Cibersegurança. Atuo desen
 ### 📌 Projetos em Destaque
 
 * 🤝 **[Doe Conecta](https://github.com/DuqueDanyllo/doeconecta):** Aplicação web focada na ponte entre doadores e instituições sociais.
-* 🎈 **[Criança Feliz](https://github.com/DuqueDanyllo/criancafeliz):** Landing Page responsiva e otimizada desenvolvida para ações comunitárias.
+* 🎈 **[Criança Feliz](https://criancafeliz.me/):** Landing Page responsiva e otimizada desenvolvida para ações comunitárias.
 * 🌐 **[Portfólio Pessoal](https://github.com/DuqueDanyllo/duquedanyllo):** Landing Page pessoal com showcase de projetos e links de contato.
 
 ---
